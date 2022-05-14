@@ -3,8 +3,7 @@ function baiTap3() {
   var result3 = $("result3");
   // var tinhFactorial = factorialCl(n);
   result3.style.display = "block";
-  result3.style.background = "aquamarine";
-
+  result3.style.color = "white";
   var factorial = 1;
   for (var i = 1; i <= n; i++) {
     factorial *= i;

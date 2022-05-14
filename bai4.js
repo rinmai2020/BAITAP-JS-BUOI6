@@ -1,6 +1,7 @@
 function baiTap4() {
   var result4 = $("result4");
   result4.style.display = "block";
+  result1.style.color = "white";
   var content = "";
   for (var i = 1; i <= 10; i++) {
     var oddDiv = `<div style="background-color:blue;color: white;">Lẻ</div>`;

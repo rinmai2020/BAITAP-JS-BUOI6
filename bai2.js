@@ -3,7 +3,7 @@ function baiTap2() {
   var nhapN = +$("nhapSoN").value;
   var result2 = $("result2");
   result2.style.display = "block";
-  result2.style.background = "aquamarine";
+  result2.style.color = "white";
   var R = 1,
     S = 0;
   for (var i = 1; i <= nhapN; i++) {
